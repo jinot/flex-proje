@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-ul {
+    display: flex;
+    gap: 8px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 100px;
+    
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0 1 400px;
+    gap: 8px;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-sec {
+    color: #E5E7EB;
+    font-size: 18px;
+} 
+
+.hero-img {
+    width: 550px;
+    height: 220px;
+}
+
+.hero-button {
+    display: block;
+    background-color: #3882F6;
+    color: #ffffff;
+    border-radius: 20px;
+    font-family: Arial;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.inf-text {
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.img-group {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.inf-img-size {
+    width: 220px;
+    height: 220px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sign {
+    padding: 100px;
+}
+
+.sign-area {
+    background-color: #3882F6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+.sign-main {
+    color: #F9FAF8;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.sign-button {
+    flex-shrink: 0;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+}
+
+.sign-sec {
+    color: #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
